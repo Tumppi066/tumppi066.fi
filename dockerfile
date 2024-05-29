@@ -1,11 +1,14 @@
 # Use a base image
-FROM node:14-alpine
+FROM node:alpine
 
 # Set the working directory
 WORKDIR /tumppi066.fi
 
 # Copy the app files to the container
-COPY . /tumppi066.fi
+COPY /tumppi066.fi /tumppi066.fi
+
+# Expose the port the app runs on
+EXPOSE 3000
 
 # Install any dependencies
 RUN npm install
