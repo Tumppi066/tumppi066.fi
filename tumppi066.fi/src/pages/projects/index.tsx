@@ -49,7 +49,7 @@ export default function Header() {
                 image="https://github.com/Tumppi066/Terminal-Video-Player/blob/main/ExampleImage.jpg?raw=true"
             />
             <div className="h-10 text-transparent">
-                This is here because apparently firefox doesn't like it being br
+                This is here because apparently firefox doesn&apos;t like it being br
             </div>
         </div>
 	);
